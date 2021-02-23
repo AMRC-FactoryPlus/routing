@@ -1,0 +1,3 @@
+[[tls.certificates]] #first certificate
+   certFile = "/etc/ssl/amrc-factoryplus_***REMOVED***.crt"
+   keyFile = "/etc/ssl/amrc-factoryplus_***REMOVED***.key"
