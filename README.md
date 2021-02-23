@@ -1,0 +1,2 @@
+# Factory+ Routing Stack
+The Routing Stack is responsible for ensuring that HTTPS traffic to the architecture is correctly routed to the appropriate service. The stack consists of an instance of the Traefik edge router that monitors the swarm for new services with the traefik.enable=true label. For more information on how routing works in the Factory+ architecture, see the Routing section of the Factory+ specification.
