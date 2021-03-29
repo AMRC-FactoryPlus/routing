@@ -36,7 +36,7 @@ services:
     deploy:
       labels:
         - "traefik.enable=true"
-        - "traefik.http.routers.dashboard.rule=Host(`traefik.amrc-factoryplus.***REMOVED***`)"
+        - "traefik.http.routers.dashboard.rule=Host(`traefik.amrc-factoryplus.<domain>`)"
         - "traefik.http.routers.dashboard.tls=true"
         - "traefik.http.services.justAdummyService.loadbalancer.server.port=1337"
         - "traefik.http.routers.dashboard.service=api@internal"
